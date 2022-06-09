@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8ACDF92852968400C8E112 /* YouTockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACDF82852968400C8E112 /* YouTockApp.swift */; };
+		9F8ACDFB2852968400C8E112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACDFA2852968400C8E112 /* ContentView.swift */; };
+		9F8ACDFD2852968600C8E112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8ACDFC2852968600C8E112 /* Assets.xcassets */; };
+		9F8ACE002852968600C8E112 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8ACDFF2852968600C8E112 /* Preview Assets.xcassets */; };
+		9F8ACE0A2852968600C8E112 /* YouTockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACE092852968600C8E112 /* YouTockTests.swift */; };
+		9F8ACE142852968600C8E112 /* YouTockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACE132852968600C8E112 /* YouTockUITests.swift */; };
+		9F8ACE162852968600C8E112 /* YouTockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACE152852968600C8E112 /* YouTockUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8ACE062852968600C8E112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8ACDED2852968400C8E112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8ACDF42852968400C8E112;
+			remoteInfo = YouTock;
+		};
+		9F8ACE102852968600C8E112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8ACDED2852968400C8E112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8ACDF42852968400C8E112;
+			remoteInfo = YouTock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F8ACDF52852968400C8E112 /* YouTock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8ACDF82852968400C8E112 /* YouTockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTockApp.swift; sourceTree = "<group>"; };
+		9F8ACDFA2852968400C8E112 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F8ACDFC2852968600C8E112 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F8ACDFF2852968600C8E112 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F8ACE052852968600C8E112 /* YouTockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8ACE092852968600C8E112 /* YouTockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTockTests.swift; sourceTree = "<group>"; };
+		9F8ACE0F2852968600C8E112 /* YouTockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8ACE132852968600C8E112 /* YouTockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTockUITests.swift; sourceTree = "<group>"; };
+		9F8ACE152852968600C8E112 /* YouTockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8ACDF22852968400C8E112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8ACE022852968600C8E112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8ACE0C2852968600C8E112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8ACDEC2852968400C8E112 = {
+			isa = PBXGroup;
+			children = (
+				9F8ACDF72852968400C8E112 /* YouTock */,
+				9F8ACE082852968600C8E112 /* YouTockTests */,
+				9F8ACE122852968600C8E112 /* YouTockUITests */,
+				9F8ACDF62852968400C8E112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8ACDF62852968400C8E112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8ACDF52852968400C8E112 /* YouTock.app */,
+				9F8ACE052852968600C8E112 /* YouTockTests.xctest */,
+				9F8ACE0F2852968600C8E112 /* YouTockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8ACDF72852968400C8E112 /* YouTock */ = {
+			isa = PBXGroup;
+			children = (
+				9F8ACDF82852968400C8E112 /* YouTockApp.swift */,
+				9F8ACDFA2852968400C8E112 /* ContentView.swift */,
+				9F8ACDFC2852968600C8E112 /* Assets.xcassets */,
+				9F8ACDFE2852968600C8E112 /* Preview Content */,
+			);
+			path = YouTock;
+			sourceTree = "<group>";
+		};
+		9F8ACDFE2852968600C8E112 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F8ACDFF2852968600C8E112 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F8ACE082852968600C8E112 /* YouTockTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8ACE092852968600C8E112 /* YouTockTests.swift */,
+			);
+			path = YouTockTests;
+			sourceTree = "<group>";
+		};
+		9F8ACE122852968600C8E112 /* YouTockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8ACE132852968600C8E112 /* YouTockUITests.swift */,
+				9F8ACE152852968600C8E112 /* YouTockUITestsLaunchTests.swift */,
+			);
+			path = YouTockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8ACDF42852968400C8E112 /* YouTock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8ACE192852968600C8E112 /* Build configuration list for PBXNativeTarget "YouTock" */;
+			buildPhases = (
+				9F8ACDF12852968400C8E112 /* Sources */,
+				9F8ACDF22852968400C8E112 /* Frameworks */,
+				9F8ACDF32852968400C8E112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTock;
+			productName = YouTock;
+			productReference = 9F8ACDF52852968400C8E112 /* YouTock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8ACE042852968600C8E112 /* YouTockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8ACE1C2852968600C8E112 /* Build configuration list for PBXNativeTarget "YouTockTests" */;
+			buildPhases = (
+				9F8ACE012852968600C8E112 /* Sources */,
+				9F8ACE022852968600C8E112 /* Frameworks */,
+				9F8ACE032852968600C8E112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8ACE072852968600C8E112 /* PBXTargetDependency */,
+			);
+			name = YouTockTests;
+			productName = YouTockTests;
+			productReference = 9F8ACE052852968600C8E112 /* YouTockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F8ACE0E2852968600C8E112 /* YouTockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8ACE1F2852968600C8E112 /* Build configuration list for PBXNativeTarget "YouTockUITests" */;
+			buildPhases = (
+				9F8ACE0B2852968600C8E112 /* Sources */,
+				9F8ACE0C2852968600C8E112 /* Frameworks */,
+				9F8ACE0D2852968600C8E112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8ACE112852968600C8E112 /* PBXTargetDependency */,
+			);
+			name = YouTockUITests;
+			productName = YouTockUITests;
+			productReference = 9F8ACE0F2852968600C8E112 /* YouTockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8ACDED2852968400C8E112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9F8ACDF42852968400C8E112 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					9F8ACE042852968600C8E112 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9F8ACDF42852968400C8E112;
+					};
+					9F8ACE0E2852968600C8E112 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9F8ACDF42852968400C8E112;
+					};
+				};
+			};
+			buildConfigurationList = 9F8ACDF02852968400C8E112 /* Build configuration list for PBXProject "YouTock" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F8ACDEC2852968400C8E112;
+			productRefGroup = 9F8ACDF62852968400C8E112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8ACDF42852968400C8E112 /* YouTock */,
+				9F8ACE042852968600C8E112 /* YouTockTests */,
+				9F8ACE0E2852968600C8E112 /* YouTockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8ACDF32852968400C8E112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8ACE002852968600C8E112 /* Preview Assets.xcassets in Resources */,
+				9F8ACDFD2852968600C8E112 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8ACE032852968600C8E112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8ACE0D2852968600C8E112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8ACDF12852968400C8E112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8ACDFB2852968400C8E112 /* ContentView.swift in Sources */,
+				9F8ACDF92852968400C8E112 /* YouTockApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8ACE012852968600C8E112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8ACE0A2852968600C8E112 /* YouTockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8ACE0B2852968600C8E112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8ACE142852968600C8E112 /* YouTockUITests.swift in Sources */,
+				9F8ACE162852968600C8E112 /* YouTockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F8ACE072852968600C8E112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8ACDF42852968400C8E112 /* YouTock */;
+			targetProxy = 9F8ACE062852968600C8E112 /* PBXContainerItemProxy */;
+		};
+		9F8ACE112852968600C8E112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8ACDF42852968400C8E112 /* YouTock */;
+			targetProxy = 9F8ACE102852968600C8E112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F8ACE172852968600C8E112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F8ACE182852968600C8E112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F8ACE1A2852968600C8E112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YouTock/Preview Content\"";
+				DEVELOPMENT_TEAM = WH46F52843;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moneta-development.YouTock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F8ACE1B2852968600C8E112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YouTock/Preview Content\"";
+				DEVELOPMENT_TEAM = WH46F52843;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moneta-development.YouTock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9F8ACE1D2852968600C8E112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH46F52843;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moneta-development.YouTockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouTock.app/YouTock";
+			};
+			name = Debug;
+		};
+		9F8ACE1E2852968600C8E112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH46F52843;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moneta-development.YouTockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YouTock.app/YouTock";
+			};
+			name = Release;
+		};
+		9F8ACE202852968600C8E112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH46F52843;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moneta-development.YouTockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YouTock;
+			};
+			name = Debug;
+		};
+		9F8ACE212852968600C8E112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WH46F52843;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "moneta-development.YouTockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YouTock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8ACDF02852968400C8E112 /* Build configuration list for PBXProject "YouTock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8ACE172852968600C8E112 /* Debug */,
+				9F8ACE182852968600C8E112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8ACE192852968600C8E112 /* Build configuration list for PBXNativeTarget "YouTock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8ACE1A2852968600C8E112 /* Debug */,
+				9F8ACE1B2852968600C8E112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8ACE1C2852968600C8E112 /* Build configuration list for PBXNativeTarget "YouTockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8ACE1D2852968600C8E112 /* Debug */,
+				9F8ACE1E2852968600C8E112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8ACE1F2852968600C8E112 /* Build configuration list for PBXNativeTarget "YouTockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8ACE202852968600C8E112 /* Debug */,
+				9F8ACE212852968600C8E112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8ACDED2852968400C8E112 /* Project object */;
+}
