@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F83B2822852B36B001C4A7D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F83B2812852B36B001C4A7D /* OnboardingView.swift */; };
 		9F8ACDF92852968400C8E112 /* YouTockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACDF82852968400C8E112 /* YouTockApp.swift */; };
 		9F8ACDFB2852968400C8E112 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACDFA2852968400C8E112 /* ContentView.swift */; };
 		9F8ACDFD2852968600C8E112 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8ACDFC2852968600C8E112 /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		9F8ACE0A2852968600C8E112 /* YouTockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACE092852968600C8E112 /* YouTockTests.swift */; };
 		9F8ACE142852968600C8E112 /* YouTockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACE132852968600C8E112 /* YouTockUITests.swift */; };
 		9F8ACE162852968600C8E112 /* YouTockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8ACE152852968600C8E112 /* YouTockUITestsLaunchTests.swift */; };
+		9FA8B65E28569EA100A67B23 /* HelpTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA8B65D28569EA100A67B23 /* HelpTab.swift */; };
+		9FE9098028553BC000307D38 /* SliderButtonComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE9097F28553BC000307D38 /* SliderButtonComponent.swift */; };
+		9FE9098528554F5B00307D38 /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9FE9098428554F5B00307D38 /* YouTubePlayerKit */; };
+		9FF9C39028568B9E00AB1B1A /* VideoTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF9C38F28568B9E00AB1B1A /* VideoTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F83B2812852B36B001C4A7D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		9F8ACDF52852968400C8E112 /* YouTock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8ACDF82852968400C8E112 /* YouTockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTockApp.swift; sourceTree = "<group>"; };
 		9F8ACDFA2852968400C8E112 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,9 @@
 		9F8ACE0F2852968600C8E112 /* YouTockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8ACE132852968600C8E112 /* YouTockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTockUITests.swift; sourceTree = "<group>"; };
 		9F8ACE152852968600C8E112 /* YouTockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9FA8B65D28569EA100A67B23 /* HelpTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpTab.swift; sourceTree = "<group>"; };
+		9FE9097F28553BC000307D38 /* SliderButtonComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderButtonComponent.swift; sourceTree = "<group>"; };
+		9FF9C38F28568B9E00AB1B1A /* VideoTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE9098528554F5B00307D38 /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +104,8 @@
 		9F8ACDF72852968400C8E112 /* YouTock */ = {
 			isa = PBXGroup;
 			children = (
-				9F8ACDF82852968400C8E112 /* YouTockApp.swift */,
-				9F8ACDFA2852968400C8E112 /* ContentView.swift */,
-				9F8ACDFC2852968600C8E112 /* Assets.xcassets */,
+				9F8ACE252852A84300C8E112 /* Sources */,
+				9F8ACE242852A81800C8E112 /* Resources */,
 				9F8ACDFE2852968600C8E112 /* Preview Content */,
 			);
 			path = YouTock;
@@ -127,6 +136,51 @@
 			path = YouTockUITests;
 			sourceTree = "<group>";
 		};
+		9F8ACE222852A63000C8E112 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9F8ACDF82852968400C8E112 /* YouTockApp.swift */,
+				9F8ACDFA2852968400C8E112 /* ContentView.swift */,
+				9F83B2812852B36B001C4A7D /* OnboardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F8ACE232852A64F00C8E112 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9F8ACE242852A81800C8E112 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F8ACDFC2852968600C8E112 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9F8ACE252852A84300C8E112 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9FE9097E28553B0E00307D38 /* Components */,
+				9F8ACE232852A64F00C8E112 /* Models */,
+				9F8ACE222852A63000C8E112 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		9FE9097E28553B0E00307D38 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9FE9097F28553BC000307D38 /* SliderButtonComponent.swift */,
+				9FF9C38F28568B9E00AB1B1A /* VideoTab.swift */,
+				9FA8B65D28569EA100A67B23 /* HelpTab.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +197,9 @@
 			dependencies = (
 			);
 			name = YouTock;
+			packageProductDependencies = (
+				9FE9098428554F5B00307D38 /* YouTubePlayerKit */,
+			);
 			productName = YouTock;
 			productReference = 9F8ACDF52852968400C8E112 /* YouTock.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +272,9 @@
 				Base,
 			);
 			mainGroup = 9F8ACDEC2852968400C8E112;
+			packageReferences = (
+				9FE9098328554F5B00307D38 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+			);
 			productRefGroup = 9F8ACDF62852968400C8E112 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE9098028553BC000307D38 /* SliderButtonComponent.swift in Sources */,
+				9F83B2822852B36B001C4A7D /* OnboardingView.swift in Sources */,
 				9F8ACDFB2852968400C8E112 /* ContentView.swift in Sources */,
+				9FF9C39028568B9E00AB1B1A /* VideoTab.swift in Sources */,
+				9FA8B65E28569EA100A67B23 /* HelpTab.swift in Sources */,
 				9F8ACDF92852968400C8E112 /* YouTockApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +649,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FE9098328554F5B00307D38 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FE9098428554F5B00307D38 /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FE9098328554F5B00307D38 /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F8ACDED2852968400C8E112 /* Project object */;
 }
